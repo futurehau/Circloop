@@ -56,7 +56,14 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="107" column="119" selection-start-line="107" selection-start-column="119" selection-end-line="107" selection-end-column="119" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#898#899#0" expanded="false" />
+                <element signature="e#928#929#0" expanded="false" />
+                <element signature="e#1001#1002#0" expanded="false" />
+                <element signature="e#1038#1039#0" expanded="false" />
                 <element signature="method#ViewGroup_SlideDelete#2;class#ViewGroup_SlideDelete#0" expanded="false" />
+                <element signature="e#11552#11553#0" expanded="false" />
+                <element signature="e#11584#11585#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,7 +104,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#4938#4939#0" expanded="false" />
+                <element signature="e#4988#4989#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2500,7 +2511,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="107" column="119" selection-start-line="107" selection-start-column="119" selection-end-line="107" selection-end-column="119" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#928#929#0" expanded="false" />
+            <element signature="e#1001#1002#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
             <element signature="method#ViewGroup_SlideDelete#2;class#ViewGroup_SlideDelete#0" expanded="false" />
+            <element signature="e#11552#11553#0" expanded="false" />
+            <element signature="e#11584#11585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2509,7 +2527,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4938#4939#0" expanded="false" />
+            <element signature="e#4988#4989#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
