@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_bar_height"
+    android:background="@drawable/skin">
+    <!--正常导航界面-->
+    <RelativeLayout
+        android:id="@+id/normal_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/skin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="设备管理"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+    <!--批量删除分组导航界面-->
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/batch_delete_nacagation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/view_navigation_bar_layout_cancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <Button
+                android:layout_width="@dimen/goback_btn_width"
+                android:layout_height="@dimen/goback_btn_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/selector_goback_btn"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="取消"
+                android:textColor="@drawable/textColor2"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/view_navigation_bar_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择了0项"
+            android:textColor="@drawable/textColor2"
+            android:textSize="@dimen/font1_size" />
+        <ImageView
+            android:id="@+id/view_navigation_bar_imageview_deletebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn_save"
+            android:paddingRight="18dp"
+            android:src="@drawable/selector_delete_btn" />
+    </RelativeLayout>
+
+    <!--批量删除孩子导航界面-->
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/batch_delete_nacagation_bar_child"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/view_navigation_bar_layout_cancelbtn_child"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <Button
+                android:layout_width="@dimen/goback_btn_width"
+                android:layout_height="@dimen/goback_btn_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/selector_goback_btn"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="取消"
+                android:textColor="@drawable/textColor2"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/view_navigation_bar_textview_title_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择了0项"
+            android:textColor="@drawable/textColor2"
+            android:textSize="@dimen/font1_size" />
+        <ImageView
+            android:id="@+id/view_navigation_bar_imageview_deletebtn_child"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn_save"
+            android:paddingRight="18dp"
+            android:src="@drawable/selector_delete_btn" />
+    </RelativeLayout>
+</RelativeLayout>

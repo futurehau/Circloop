@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/skin"
+    >
+    <!--标题布局-->bar
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/skin">
+        <TextView
+            android:id="@+id/tv_device_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:text="未命名设备"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <include layout="@layout/edit_device_content"/>
+</LinearLayout>

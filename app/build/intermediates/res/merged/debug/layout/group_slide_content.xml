@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mElvContent"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@drawable/group_item_layout">
+    <RelativeLayout
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="35dip"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@drawable/textColor1"/>
+        <TextView
+        android:id="@+id/group_count"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/group_name"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@drawable/textColor1"/>
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:gravity="center_vertical|center_horizontal">
+            <CheckBox
+                android:id="@+id/group_view_for_date_checkbox"
+                style="@style/CheckBoxDeleteData"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:focusable="false"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textColor="@drawable/textColor1"
+            />
+    </RelativeLayout>
+
+    <ProgressBar
+        style="@style/ProgressBar_Mini"
+        android:layout_below="@id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/progressBar"
+        android:visibility="invisible" />
+</LinearLayout>

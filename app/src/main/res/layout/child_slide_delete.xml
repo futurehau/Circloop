@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mElvDelete_child"
+    android:layout_width="140dp"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+
+    android:gravity="center">
+    <LinearLayout
+        android:id="@+id/edit_layout_child"
+        android:layout_width="70dp"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:background="#ff909090"
+        android:gravity="center"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/slide_edit_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/del_layout_child"
+        android:layout_width="70dp"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/slide_del_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_bar">#0176da</color>
+    <color name="blue">#0176da</color>
+    <color name="grey">#aaaa</color>
+    <color name="divider_line">#ff4cabda</color>
+    <color name="textColorGrey">#8888</color>
+    <color name="textColorError">#FF4081</color>
+    <color name="textColorBlack">#101010</color>
+    <drawable name="add_group_background">#EEEEEF</drawable>
+    <drawable name="textColor1">#101010</drawable>
+    <drawable name="textColor2">#ffffff</drawable>
+    <drawable name="textColor3">#ff4cb1da</drawable>
+
+    <!--<drawable name="child_item_layout">#bae4e6</drawable>-->
+    <drawable name="child_item_layout">#ffffff</drawable>
+    <!--<drawable name="group_item_layout">#a6dfe1</drawable>-->
+    <drawable name="group_item_layout">#CEEE</drawable>
+    <drawable name="main_background">#ffffff</drawable>
+    <drawable name="add_background">#EEEEEF</drawable>
+    <drawable name="group_divider">#ffffff</drawable>
+    <drawable name="child_divider">#dddd</drawable>
+    <drawable name="main_bottom_background">#ffffffff</drawable>
+    <drawable name="progressbar">#3F51B5</drawable>
+    <drawable name="navigationBarText">#7597B3</drawable>
+    <drawable name="add_group_nav_bar">#cccc</drawable>
+</resources>

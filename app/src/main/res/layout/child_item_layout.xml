@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.circloop.deviceManager.ViewGroup_SlideDelete
+        android:id="@+id/mSlideDelete_child"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <!--文本部分-->
+        <include layout="@layout/child_slide_content"/>
+        <!--删除部分-->
+        <include layout="@layout/child_slide_delete"/>
+    </com.circloop.deviceManager.ViewGroup_SlideDelete>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">设备管理</string>
+    <string name="group_name">分组名称</string>
+    <string name="group_desc">分组描述</string>
+    <string name="ip_begin">开始地址</string>
+    <string name="ip_end">结束地址</string>
+    <string name="device_name">设备名称</string>
+    <string name="device_desc">设备描述</string>
+    <string name="ip_address">设备地址</string>
+    <string name="title_activity_edit__group">Edit_Group</string>
+    <string name="title_activity_edit__device">Edit_Device</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

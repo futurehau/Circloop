@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "F:\\zhanghao\\android\\Circloop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\delete_msg_out.png",
+        "source": "F:\\zhanghao\\android\\Circloop\\app\\src\\main\\res\\mipmap-xxxhdpi\\delete_msg_out.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\Circloop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\back_normal.png",
+        "source": "F:\\zhanghao\\android\\Circloop\\app\\src\\main\\res\\mipmap-xxxhdpi\\back_normal.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\deviceManager2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\zhanghao\\android\\deviceManager2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\deviceManager2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\delete_msg_out.png",
+        "source": "F:\\zhanghao\\android\\deviceManager2\\app\\src\\main\\res\\mipmap-xxxhdpi\\delete_msg_out.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\Circloop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\back_pressed.png",
+        "source": "F:\\zhanghao\\android\\Circloop\\app\\src\\main\\res\\mipmap-xxxhdpi\\back_pressed.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\deviceManager2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\back_pressed.png",
+        "source": "F:\\zhanghao\\android\\deviceManager2\\app\\src\\main\\res\\mipmap-xxxhdpi\\back_pressed.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\deviceManager2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\transparent_bg.png",
+        "source": "F:\\zhanghao\\android\\deviceManager2\\app\\src\\main\\res\\mipmap-xxxhdpi\\transparent_bg.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\Circloop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\transparent_bg.png",
+        "source": "F:\\zhanghao\\android\\Circloop\\app\\src\\main\\res\\mipmap-xxxhdpi\\transparent_bg.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\Circloop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\delete_msg_on.png",
+        "source": "F:\\zhanghao\\android\\Circloop\\app\\src\\main\\res\\mipmap-xxxhdpi\\delete_msg_on.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\Circloop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\zhanghao\\android\\Circloop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\deviceManager2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\back_normal.png",
+        "source": "F:\\zhanghao\\android\\deviceManager2\\app\\src\\main\\res\\mipmap-xxxhdpi\\back_normal.png"
+    },
+    {
+        "merged": "F:\\zhanghao\\android\\deviceManager2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\delete_msg_on.png",
+        "source": "F:\\zhanghao\\android\\deviceManager2\\app\\src\\main\\res\\mipmap-xxxhdpi\\delete_msg_on.png"
+    }
+]
